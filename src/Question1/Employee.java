@@ -1,7 +1,7 @@
 package Question1;
 
 //
-//	Q1 Create a class Employee. Set the first Name, last name and hourly rate and print the first name,last name and rate . 
+//	Q1 Create a class Employee. Set the first Name, last name and hourly rate and print the first name,last name and rate. 
 //	 Use get and set method to update and retrieve values. 
 //	 Also add a method which will calculate the weekly salary of the person by taking no of hours worked as an input 
 //	and multiplying it to hourly rate and print it. 

@@ -1,4 +1,5 @@
 package Question1;
+
 import java.util.Scanner;
 
 public class EmployeeMainClass {
@@ -24,7 +25,7 @@ public class EmployeeMainClass {
 		newLastName = objEmployee.getLastName();
 		System.out.println("Last Name is: " + newLastName);
 
-		System.out.println("Employee Full name is: " + newFirstName + newLastName); // FULL NAME OF AN EMPLOYEE
+		System.out.println("Employee Full name is: " + newFirstName + " " + newLastName); // FULL NAME OF AN EMPLOYEE
 
 		// PRINT HOURLY RATE
 		System.out.println("Enter hourly rate");
@@ -59,8 +60,9 @@ public class EmployeeMainClass {
 		String updatedLastName = objEmployee.getLastName();
 		System.out.println("First Name is updated to: " + updatedLastName);
 
-		System.out.println("UPDATED Full name is: " + updatedFirstName + updatedLastName); // UPDATED FULL NAME OF AN
-																							// EMPLOYEE
+		System.out.println("UPDATED Full name is: " + updatedFirstName + " " + updatedLastName); // UPDATED FULL NAME OF AN
+																									// EMPLOYEE
+		
 	}
 
 }
