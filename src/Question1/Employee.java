@@ -18,40 +18,54 @@ public class Employee {
 	double noOfHoursWorked = 0;
 	double weeklySalary = 0;
 
-	// GET AND UPDATE FIRST NAME:
+	// GET FIRST NAME:
 	String getFirstName() {
 		return firstName;
 	}
 
-	void updateFirstName(String name1) {
-		firstName = name1;
-	}
-
-	// GET AND UPDATE LAST NAME:
+	// GET LAST NAME:
 	String getLastName() {
 		return lastName;
 	}
 
-	void updateLastName(String name2) {
-		lastName = name2;
-	}
-
-	// GET AND UPDATE HOURLY RATE:
+	// GET HOURLY RATE:
 	double getHourlyRate() {
 		return hourlyRate;
 	}
 
-	void updateHourlyRate(double newRate) {
-		hourlyRate = newRate;
-	}
-
-	// GET AND UPDATE NO. OF HOURS WORKED
+	// GET NO. OF HOURS WORKED
 	double getNoOfHours() {
 		return noOfHoursWorked;
 	}
 
 	// CALCULATE THE WEEKLY SALARY
 	double getWeeklySalary() {
-		return weeklySalary = (noOfHoursWorked * hourlyRate);
+		weeklySalary = (noOfHoursWorked * hourlyRate);
+		return weeklySalary;
+	}
+
+	// UPDATE FIRST NAME
+	void updateFirstName(String name1) {
+		firstName = name1;
+	}
+
+	// UPDATE LAST NAME
+	void updateLastName(String name2) {
+		lastName = name2;
+	}
+
+	// UPDATE HOURLY RATE
+	void updateHourlyRate(double newRate) {
+		hourlyRate = newRate;
+	}
+
+	// UPDATE NO. OF HOURS WORKED
+	void updateNoOfHours(double newHours) {
+		noOfHoursWorked = newHours;
+	}
+
+	// UPDATE WEEKLY SALARY
+	void updatedWeeklySalary(double newWeeklySalary) {
+		weeklySalary = newWeeklySalary;
 	}
 }
